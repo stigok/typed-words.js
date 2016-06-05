@@ -2,6 +2,8 @@
 
 > A **simple** HTML API edition of [typed.js][typedjs]
 
+[<kbd>DEMO</kbd>][demo]
+
 ## Installation
 
 Requires [jQuery][] and [typed.js][typedjs]
@@ -19,7 +21,7 @@ Include *typed-words.js* after *typed.js*
 <span class="typed-words" data-type-speed="210">first thing|second sentence|third item</span>
 ```
 
-Or check [example/index.html][example] for a complete example.
+See [example/index.html][example] for a complete example. And check out the [<kbd>demo</kbd>][demo] to see the example live.
 
 ## Credits
 
@@ -28,3 +30,4 @@ This is simply a small wrapper on top of [@mattboldt's typed.js][typedjs]. Creds
 [typedjs]: https://github.com/mattboldt/typed.js
 [jQuery]: https://code.jquery.com/
 [example]: example/index.html
+[demo]: stigok.github.io/typed-words.js
