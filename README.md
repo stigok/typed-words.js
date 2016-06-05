@@ -19,7 +19,7 @@ Include *typed-words.js* after *typed.js*
 <span class="typed-words" data-type-speed="210">first thing|second sentence|third item</span>
 ```
 
-Or check [./example/index.html]() for a complete example.
+Or check [example/index.html][example] for a complete example.
 
 ## Credits
 
@@ -27,3 +27,4 @@ This is simply a small wrapper on top of [@mattboldt's typed.js][typedjs]. Creds
 
 [typedjs]: https://github.com/mattboldt/typed.js
 [jQuery]: https://code.jquery.com/
+[example]: example/index.html
