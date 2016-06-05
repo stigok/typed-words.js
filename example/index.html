@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>typed-words example</title>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="../typed.js"></script>
+    <script src="../typed-words.js"></script>
+    <link rel="stylesheet" href="../typed.css">
+    <style>
+      .typed-words {
+        /* Avoid content flickering on load */
+        visibility: hidden;
+      }
+      .typed-cursor{
+          opacity: 1;
+          -webkit-animation: blink 0.7s infinite;
+          -moz-animation: blink 0.7s infinite;
+          animation: blink 0.7s infinite;
+      }
+      @keyframes blink{
+          0% { opacity:1; }
+          50% { opacity:0; }
+          100% { opacity:1; }
+      }
+      @-webkit-keyframes blink{
+          0% { opacity:1; }
+          50% { opacity:0; }
+          100% { opacity:1; }
+      }
+      @-moz-keyframes blink{
+          0% { opacity:1; }
+          50% { opacity:0; }
+          100% { opacity:1; }
+      }
+    </style>
+  </head>
+  <body>
+    I like to <span class="typed-words" data-type-speed="50">sit|code|eat|drink|sleep</span>
+  </body>
+</html>
