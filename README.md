@@ -2,7 +2,7 @@
 
 > A **simple** HTML API edition of [typed.js][typedjs]
 
-[<kbd>DEMO</kbd>][demo]
+**[<kbd>~ DEMO ~</kbd>][demo]**
 
 ## Installation
 
@@ -30,4 +30,4 @@ This is simply a small wrapper on top of [@mattboldt's typed.js][typedjs]. Creds
 [typedjs]: https://github.com/mattboldt/typed.js
 [jQuery]: https://code.jquery.com/
 [example]: example/index.html
-[demo]: stigok.github.io/typed-words.js
+[demo]: https://stigok.github.io/typed-words.js
